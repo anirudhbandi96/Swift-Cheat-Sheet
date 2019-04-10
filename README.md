@@ -2,7 +2,7 @@
 Swift Cheat Sheet for Coding Interviews
 
 **Fetching Character for ASCII Values and vice-versa**
-```
+```swift
   var a: Character = "a"
   a.asciiValue #outputs: 97
   Character(UnicodeScalar(a.asciiValue!-32)) #outputs: "A"
@@ -10,7 +10,7 @@ Swift Cheat Sheet for Coding Interviews
 ```
 
 **Generating Random number in a given range**
-```
+```swift
   var v = Int.random(in: low...high)
   var w = Double.random(in: low...high)
 
